@@ -1,0 +1,205 @@
+ /* =================Google fonts (integration using import)=============== */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+/* ==========Variables Css========== */
+:root{
+     --header-height:3.5rem;  /* 56px */
+     /* ===== colors ====== */
+     /* Color mode HSL(hue, saturation, Lightness) */
+     --color-white:hsl(252,30%,100%);
+     --color-light:hsl(252,30%,92%);
+     --color-gray:hsl(252, 15%, 65%);
+     --color-primary:hsl(352,75%,60%);
+     --color-dark:hsl(252,30%,17%);
+
+     /* ===== Font and typography ====== */
+     /* 0.5 rem= 8px | 1rem=16px ....*/
+     --body-font: 'Rubik', sans-serif;
+     --h1-font-size:1.5rem;
+     --h2-font-size:1.25rem;
+     --h3-font-size:1rem;
+     --normal-font-size: .938rem;
+     --small-font-size: .813rem;
+
+     /* ===== font weight =====*/
+     --font-medium: 400;
+     --font-semi-bold: 600;
+
+     /* ===== Margenes Bottom ===== */
+     /* 0.5 rem= 8px | 1rem= 16px */
+     --m-0-5: .5rem;
+     --m-0-75: .75rem;
+     --m-1: 1rem;
+     --m-1-5: 1.5rem;
+     --m-2: 2rem;
+     --m-2-5: 2.5rem;
+
+      /* ===== card padding =====*/
+      --card-padding:1.9rem 0.95rem;
+      
+      /* ===== Border Radius ===== */
+      --border-radius:1.25rem;
+      
+      /* ===== Box Shadow ====== */
+      --box-shadow:0px 5px 20px 0px rgba(69,67,96,0.1);
+}
+/* ========== Base ========== */    
+*
+{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+}
+body,
+button,
+input,textarea
+{ 
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+}
+body
+{
+        background-color: var(--color-light);
+        color:var(--color-dark);
+        line-height: 1.7;
+        font-weight: var(--font-medium);
+}
+img
+{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+}
+ul
+{
+        list-style: none;
+}
+a
+{
+        text-decoration: none;
+        color: var(--color-dark);
+}
+h1,h2,h3
+{
+        font-weight: var(--font-semi-bold);
+}
+h1
+{
+        font-size: var(--h1-font-size);
+}
+h2
+{
+        font-size: var(--h2-font-size);
+}
+h3
+{
+        font-size: var(--h3-font-size);
+}
+
+/* ========== Layout ========== */
+.container
+{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+}
+
+.padd-15
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ /* ========== Header ========== */
+header
+{
+    width: 100%;
+    background-color:var(--color-light);
+    position: fixed;
+    top: O;
+    left: 0;
+    z-index: 100;
+}
+
+/* ===== Nav ====== */
+.nav
+{
+    height: calc(var(--header-height)+1.5rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+}
+.nav-logo
+{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    position: relative;
+}
+.nav-logo::after
+{
+    position: absolute;
+    content: '';
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    top:56%;
+    right: -0.50rem;
+}
+.nav-menu
+{
+    margin-left: auto;
+}
+.nav-list
+{
+    display:flex;
+    column-gap: 3rem;
+}
+
+.nav-link
+{
+font-weight: var(--font-medium);
+transition: .3s;
+}
+.nav-link:hover
+{
+    color:var(--color-primary);
+}
+.nav-btns
+{
+    display:inline-flex;
+    align-items:center;
+    column-gap: 1rem;
+}
+.change-theme
+{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.nav-toggle
+{
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+.nav-toggle
+{
+    display: none;
+}
+.active-link
+{
+    position: relative;
+}
+.active-link::before
+{
+    content:'';
+    position: absolute;
+    bottom: -0.75rem;
+    left:45%;
+    width:0.3rem;
+    height:0.3rem;
+    background-color:var(--color-primary);
+    border-radius: 50%;
+
+}
