@@ -1,144 +1,62 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<<<<<<< HEAD
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-=======
-    <title>portfolio of Avinash Mane</title>
->>>>>>> 0de72e4f926bcc5c5c6fda32b1aa8249dd9739e7
-    <style>
-      .leftdiv {
-        float: left;
-        width: 20%;
-      }
-      .middlediv {
-        float: left;
-        width: 80%;
-      }
-      .shimmer {
-        font-family: "Lato";
-        font-weight: 300;
-        font-size: 3em;
-        margin: 0 auto;
-        padding: 0 140px 0 0;
-        display: inline;
-        margin-bottom: 0;
-      }
-      .shimmer {
-        text-align: center;
-<<<<<<< HEAD
-        color: rgba(255, 255, 255, 0.1);
-=======
-        color: rgba(255, 255, 255, 0.241);
->>>>>>> 0de72e4f926bcc5c5c6fda32b1aa8249dd9739e7
-        background: -webkit-gradient(
-          linear,
-          left top,
-          right top,
-          from(#222),
-          to(#222),
-          color-stop(0.5, #fff)
-        );
-        background: -moz-gradient(
-          linear,
-          left top,
-          right top,
-          from(#222),
-          to(#222),
-          color-stop(0.5, #fff)
-        );
-        background: gradient(
-          linear,
-          left top,
-          right top,
-          from(#222),
-          to(#222),
-          color-stop(0.5, #fff)
-        );
-        -webkit-background-size: 125px 100%;
-        -moz-background-size: 125px 100%;
-        background-size: 125px 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        -webkit-animation-name: shimmer;
-        -moz-animation-name: shimmer;
-        animation-name: shimmer;
-        -webkit-animation-duration: 2s;
-        -moz-animation-duration: 2s;
-        animation-duration: 2s;
-        -webkit-animation-iteration-count: infinite;
-        -moz-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-        background-repeat: no-repeat;
-        background-position: 0 0;
-        background-color: #222;
-      }
-      @-moz-keyframes shimmer {
-        0% {
-          background-position: top left;
+    <style type="text/css">
+        body {
+            background-color: #1d1d1d;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", sans-serif;
         }
-        100% {
-          background-position: top right;
+
+        .wrapper {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
-      }
-      @-webkit-keyframes shimmer {
-        0% {
-          background-position: top left;
+
+        h1 {
+            font-size: 3rem;
+            color: transparent;
+            background-image: linear-gradient(to right, #540032, transparent);
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: moveBg 10s linear infinite;
         }
-        100% {
-          background-position: top right;
+
+        @keyframes moveBg {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 0%;
+            }
         }
-      }
-      @-o-keyframes shimmer {
-        0% {
-          background-position: top left;
+
+        .title {
+            background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
+            -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text; 
+            background-repeat: repeat-x;
+        background-position: 0% 0%;
+        animation: moveBg 10s linear infinite;
         }
-        100% {
-          background-position: top right;
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
         }
-      }
-      @keyframes shimmer {
-        0% {
-          background-position: top left;
-        }
-        100% {
-          background-position: top right;
-        }
-      }
     </style>
-  </head>
-  <body>
-<<<<<<< HEAD
-    <div>
-      <div
-        style="background: #000; text-align: center; width: 80%; float: right"
-      >
-        <center>
-          <font face="Verdana" size="10" class="shimmer"
-            >Welcome to My Websites regard-Avinash Milind Mane</font
-          >
-        </center>
-        <br />
-      </div>
-      <img src="image's/DSC_0769 copy copy.JPG" width="20%" border />
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Welcome to the Realm of Web Wizardry: Crafted by Avinash Mane<br>Thank You for Stepping into My Digital Universe</h1>
     </div>
-=======
-    <div style="background: #000; text-align: center">
-      <center>
-        <font face="Verdana" size="10" class="shimmer"
-          >Welcome to My Website regard-Avinash Milind Mane</font
-        >
-      </center>
-      <br />
-    </div>
-    <h1 style="color: #fff; background-color: #000">Java Developer</h1>
-    <h1 style="color: #fff; background-color: #000">education</h1>
-    <pre
-      style="color: #fff; background-color: #000"
-    ><h2>           MCA</h2>  <h3>from Dr.D.Y.Patil Institute of Master of Computer Application</h3></pre>
->>>>>>> 0de72e4f926bcc5c5c6fda32b1aa8249dd9739e7
-  </body>
+</body>
 </html>
