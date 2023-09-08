@@ -126,7 +126,7 @@ header
 .nav
 {
     height: calc(var(--header-height)+1.5rem);
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 3rem;
@@ -202,4 +202,10 @@ transition: .3s;
     background-color:var(--color-primary);
     border-radius: 50%;
 
+}
+#img-profile_img{
+    margin-top: 5rem;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
