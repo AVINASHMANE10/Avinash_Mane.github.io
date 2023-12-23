@@ -1,6 +1,6 @@
 # Avinash Milind Mane's Portfolio
 
-![Portfolio Banner](https://via.placeholder.com/1200x300.png?text=Avinash+Milind+Mane's+Portfolio)
+![Portfolio Banner](https://github.com/AVINASHMANE10/Avinash_Mane.github.io/blob/main/assets/image's/demo_github_repo.jpg)
 
 Welcome to my personal portfolio! This repository showcases my skills in HTML, CSS, and JavaScript, featuring a responsive design and functionalities like dark mode.
 
@@ -11,12 +11,25 @@ Welcome to my personal portfolio! This repository showcases my skills in HTML, C
 - **Interactive UI**: Engaging user interface with HTML, CSS, and JavaScript.
 - **Cross-Browser Compatibility**: Consistent performance across different browsers.
 
-## 📸 Preview
+   ## 💻 Technologies Used
 
-> Note: The portfolio is a local file and can't be accessed publicly. Please clone the repository to view it.
+- HTML
+- CSS
+- JavaScript
 
-## 🚀 Installation
+## 🌐 View My Portfolio
 
-1. **Clone the repository:**
-   ```bash
-   git clone [repository-url]
+Check out my live portfolio here: [Avinash Milind Mane's Portfolio](https://your-portfolio-url.com)
+
+## 🤝 Contributing
+
+Feel free to fork, submit pull requests, or open issues for suggestions or bug reports.
+
+## 📬 Contact
+
+Reach out to me at [maneavinash818@gmail.com].
+
+
+![Footer Banner](https://via.placeholder.com/1200x100.png?text=Thank+You+for+Visiting!)
+
+© 2023 Avinash Milind Mane | All Rights Reserved
