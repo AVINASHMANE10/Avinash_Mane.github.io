@@ -376,3 +376,30 @@ header {
   font-size: var(--h2-font-size);
   color: var(--color-gray);
 }
+/* =========== Expertise section ======================== */
+
+.expertise .expertise-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  display: flex;
+}
+
+.expertise .expertise-item .expertise-item-inner {
+  border-radius: var(--border-radius);
+  padding: var(--card-padding);
+  text-align: center;
+  transform: translateY(0);
+  transition: 0.3s;
+}
+.expertise .expertise-item .expertise-item-inner:hover {
+  transform: translateY(-0.625rem);
+}
+
+.expertise .expertise-item img {
+  width: 30%;
+  margin-bottom: var(--m-0-75);
+}
+.expertise-item h3 {
+  margin-bottom: var(--m-0-5);
+  color: #fff;
+}
