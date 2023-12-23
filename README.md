@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This repository showcases my skills in HTML, C
 
 ## 🌐 View My Portfolio
 
-Check out my live portfolio here: [Avinash Milind Mane's Portfolio](https://your-portfolio-url.com)
+Check out my live portfolio here: [Avinash Milind Mane's Portfolio](https://avinashmane10.github.io/Avinash_Mane.github.io/main.html)
 
 ## 🤝 Contributing
 
