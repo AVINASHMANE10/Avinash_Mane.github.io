@@ -1,5 +1,5 @@
 /* =================Google fonts (integration using import)=============== */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 
 /* ==========Variables Css========== */
 :root {
@@ -14,7 +14,7 @@
 
   /* ===== Font and typography ====== */
   /* 0.5 rem= 8px | 1rem=16px ....*/
-  --body-font: "Rubik", sans-serif;
+  --body-font: 'Rubik', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -141,7 +141,7 @@ header {
 }
 .nav-logo::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 0.3rem;
   height: 0.3rem;
   border-radius: 50%;
@@ -184,7 +184,7 @@ header {
   position: relative;
 }
 .active-link::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -0.75rem;
   left: 45%;
@@ -412,4 +412,61 @@ header {
 }
 .text a {
   color: var(--color-primary);
+}
+
+/* =========== Experience/Education section ======================== */
+.education {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.experience {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.timeline {
+  background-color: var(--color-white);
+  padding: 1.9rem 0.95rem;
+  border-radius: var(--border-radius);
+  width: 100%;
+  position: relative;
+}
+.timeline .timeline-item {
+  position: relative;
+  padding-left: 2.5rem;
+  padding-bottom: 1.9rem;
+}
+.timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
+.timeline .timeline-item::before {
+  content: ' ';
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: var(--m-0-5);
+  background-color: var(--color-primary);
+  top: 0;
+}
+.timeline .timeline-icon {
+  position: absolute;
+  left: -0.25rem;
+  top: 0;
+  font-size: 1.5rem;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.timeline .timeline-date {
+  font-size: var(--small-font-size);
+  color: var(--color-gray);
+}
+.timeline .timeline-date .lni {
+  margin-right: 0.3rem;
+}
+.timeline .timeline-title {
+  margin: var(--m-0-75) 0;
 }
